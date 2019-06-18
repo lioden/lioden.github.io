@@ -1,5 +1,4 @@
 /* make keyframes that tell the start state and the end state of our object */
- 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -40,7 +39,7 @@ body {
     font-size: 14px;
     font-family: 'Work Sans', sans-serif;
     color: #666;
-    background-color: #fff !important;
+    background-color:#fff !important;
 }
 
 a {
@@ -129,16 +128,14 @@ li {
     color: #888;
 }
 
-@media only screen and (max-width: 600px) {
-    .card {
-        margin: 5px !important;
-        background: #fff;
-        box-shadow: #888 1px 1px 20px;
-    }
-}
-
 .card {
     margin: 30px;
     background: #fff;
     box-shadow: #888 1px 1px 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .card {
+      margin: 0px;
+    }
+  }
