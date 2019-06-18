@@ -129,8 +129,16 @@ li {
     color: #888;
 }
 
+@media only screen and (max-width: 600px) {
+    .card {
+        margin: 5px !important;
+        background: #fff;
+        box-shadow: #888 1px 1px 20px;
+    }
+}
+
 .card {
-    margin: 30px !important;
+    margin: 30px;
     background: #fff;
     box-shadow: #888 1px 1px 20px;
 }
